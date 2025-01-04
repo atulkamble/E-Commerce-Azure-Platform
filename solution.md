@@ -1,31 +1,5 @@
 Here’s a detailed implementation plan with the full code and configuration for the **E-Commerce Platform on Azure** project.
 
-Repository Structure:
-bash
-Copy code
-E-Commerce-Azure-Platform/
-│
-├── frontend/                # Frontend application code (React/Angular/HTML+CSS)
-├── backend/                 # Backend application code (Node.js/.NET)
-├── infrastructure/          # Infrastructure setup scripts (ARM templates, CLI commands)
-│   ├── sql/
-│   ├── app_service/
-│   ├── blob_storage/
-│   └── load_balancer/
-├── docs/                    # Documentation
-│   ├── architecture_diagram.png
-│   ├── setup_instructions.md
-│   └── security_guidelines.md
-├── .azure-pipelines.yml     # CI/CD pipeline configuration
-└── README.md                # Project overview and setup steps
-
-Repository Highlights:
-Frontend: Fully responsive UI for product browsing, user accounts, and shopping cart.
-Backend: APIs for product management, order processing, and payment gateway integration.
-Infrastructure: Scripts and templates for automated Azure resource provisioning.
-Security: Detailed guidelines and configurations for role-based access control (RBAC) and data encryption.
-Monitoring: Configuration files for Azure Monitor integration and log management.
-
 ---
 
 ### **Step 1: Create Azure Resource Group**
